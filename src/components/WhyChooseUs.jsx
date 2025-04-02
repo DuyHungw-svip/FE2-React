@@ -57,7 +57,7 @@ function WhyChooseUs() {
           </div>
           <div className="col-lg-5">
             <div className="img-wrap">
-              <img src={WhyChooseUsImg} alt="Image" className="img-fluid" />
+              <img src="https://image.vietstock.vn/2021/12/27/211227_DH_1.jpg" alt="Image" className="img-fluid" />
             </div>
           </div>
         </div>

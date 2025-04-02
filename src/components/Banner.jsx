@@ -1,38 +1,36 @@
 import { Link } from "react-router";
-import couch from "../assets/images/couch.png";
 
 function Banner({ title, title2, des, isShowBtn = false }) {
   return (
-    <div className="hero">
-      <div className="container">
-        <div className="row justify-content-between">
-          <div className="col-lg-5">
-            <div className="intro-excerpt">
-              <h1>
-                {title}
-                <span className="d-block">{title2}</span>
-              </h1>
-              <p className="mb-4">{des}</p>
-              {isShowBtn && (
-                <p>
-                  <Link to={"/shop"} className="btn btn-secondary me-2">
-                    Mua ngay
-                  </Link>
-                  <Link to={"/shop"} className="btn btn-white-outline">
-                    Khám phá
-                  </Link>
-                </p>
-              )}
-            </div>
+    <div className="hero" style={{ backgroundColor: '#000', color: '#fff', padding: '180px 0' }}>
+      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div style={{ flex: '1' }}>
+          <div className="intro-excerpt">
+            <h1>
+              {title}
+              <span style={{ display: 'block' }}>{title2}</span>
+            </h1>
+            <p style={{ marginBottom: '20px' }}>{des}</p>
+            {isShowBtn && (
+              <p>
+                <Link to={'/shop'} style={{ marginRight: '10px', padding: '10px 20px', backgroundColor: '#555', color: '#fff', textDecoration: 'none', borderRadius: '5px' }}>
+                  Mua ngay
+                </Link>
+                <Link to={'/shop'} style={{ padding: '10px 20px', border: '2px solid #555', color: '#fff', textDecoration: 'none', borderRadius: '5px' }}>
+                  Khám phá
+                </Link>
+              </p>
+            )}
           </div>
-          <div className="col-lg-7">
-            <div className="hero-img-wrap">
-              <img src={couch} className="img-fluid" alt="Couch" />
-            </div>
+        </div>
+        <div style={{ flex: '1', textAlign: 'center' }}>
+          <div className="hero-img-wrap" style={{ marginTop: '-50px' }}> {/* Điều chỉnh vị trí ảnh */}
+            <img src="https://frodos.com.vn/wp-content/uploads/2022/08/ro1.jpeg" alt="Couch" style={{ maxWidth: '100%', borderRadius: '10px' }} />
           </div>
         </div>
       </div>
     </div>
   );
 }
+
 export default Banner;
