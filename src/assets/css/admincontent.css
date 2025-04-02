@@ -1,0 +1,22 @@
+.button-circle-edit {
+  width: 40px;
+  height: 40px;
+  background-color: #0d6efd;
+  border-radius: 20px;
+}
+.icon-circle-edit {
+  width: 40px;
+  height: 35px;
+  font-size: 17px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.button-circle-delete {
+  width: 40px;
+  height: 40px;
+  background-color: #dc3545;
+  border-radius: 20px;
+}

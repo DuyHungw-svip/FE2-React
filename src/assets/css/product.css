@@ -1,0 +1,4 @@
+.product-thumbnail {
+  background-color: transparent; /* Đảm bảo nền trong suốt */
+  mix-blend-mode: multiply; /* Tạo hiệu ứng xóa nền */
+}

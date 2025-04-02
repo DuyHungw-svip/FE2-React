@@ -1,0 +1,9 @@
+.address {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: -10px;
+}
+.icon-address{
+    width: 12px;
+}
