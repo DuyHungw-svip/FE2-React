@@ -32,12 +32,12 @@ function Header() {
         <meta name="keywords" content="bootstrap, bootstrap4" />
         <title>ASM 2</title>
         <nav
-          className="custom-navbar navbar navbar-expand-md navbar-dark bg-dark"
+          className="navbar navbar-expand-md navbar-dark bg-dark shadow-sm"
           aria-label="Furni navigation bar"
         >
           <div className="container">
-            <Link className="navbar-brand" to="/">
-              Homely<span>.</span>
+            <Link className="navbar-brand text-white" to="/">
+             <span> Đồng hồ Rolex</span>
             </Link>
             <button
               className="navbar-toggler"
@@ -51,36 +51,36 @@ function Header() {
               <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse" id="navbarsFurni">
-              <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+              <ul className="navbar-nav ms-auto mb-2 mb-md-0">
                 <li className="nav-item active">
-                  <Link className="nav-link" to="/">
+                  <Link className="nav-link text-white" to="/">
                     Trang Chủ
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-link" to="/shop">
+                  <Link className="nav-link text-white" to="/shop">
                     Sản Phẩm
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-link" to="/about">
+                  <Link className="nav-link text-white" to="/about">
                     Giới Thiệu
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-link" to="/contact">
+                  <Link className="nav-link text-white" to="/contact">
                     Liên Hệ
                   </Link>
                 </li>
               </ul>
-              <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+              <ul className="navbar-nav mb-2 mb-md-0 ms-5">
                 <li>
-                  <button onClick={handleClick} className="nav-link">
+                  <button onClick={handleClick} className="nav-link text-white">
                     <img src={userIcon} alt="User" />
                   </button>
                 </li>
                 <li>
-                  <Link className="nav-link" to={'/shopping-cart'}>
+                  <Link className="nav-link text-white" to={'/shopping-cart'}>
                     <img src={cartIcon} alt="Cart" />
                     {totalItem > 0 && (
                       <span
@@ -97,6 +97,38 @@ function Header() {
           </div>
         </nav>
       </div>
+
+      {/* Thêm một ít CSS để tạo hiệu ứng cho các chữ */}
+      <style>
+        {`
+          .nav-link {
+            position: relative;
+          }
+
+          .nav-link:hover {
+            color: #f8f9fa !important;
+            text-decoration: none;
+          }
+
+          .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #fff;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+          }
+
+          .nav-link:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
+        `}
+      </style>
     </>
   );
 }

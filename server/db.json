@@ -1,62 +1,63 @@
 {
   "products": [
-    {
-      "id": 1,
-      "name": "Ghế ăn - Ghế cafe XDAILY - Eames chair",
-      "price": "9360000",
-      "description": "Kích thước (DxR):\n1800*850mm – Giá: 9,360,000 VND\n2000*850mm – Giá: 10,400,000 VND\n2200*850mm – Giá: 11,440,000 VND",
-      "image": "https://product.hstatic.net/1000400963/product/ghe-an-xdaily-eames-chair__1__c073b3c9cb9c49b48b92f957bff0c3e3_master.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Ghế Ăn Vải Nỉ Bizu",
-      "price": 25000000,
-      "description": "Ghế bọc vải là một trong những sản phẩm nổi bật của Furnist. Với thiết kế ấn tượng cùng công nghệ sản xuất tiên tiến, đảm bảo về công năng sử dụng. Sản phẩm là sự thành công để mang đến không gian vẻ đẹp sang trọng, đa năng trong cách ứng dụng và an toàn cho người sử dụng.",
-      "image": "https://www.pngplay.com/wp-content/uploads/2/Modern-Chair-PNG-HD-Quality.png"
-    },
-    {
-      "id": 3,
-      "name": "Ghế ăn bọc da cao cấp XDAILY - ROM chair",
-      "price": "30000000",
-      "description": "Sofa da cao cấp nhập khẩu, chất liệu da thật, mềm mại và bền bỉ.",
-      "image": "https://product.hstatic.net/1000400963/product/ghe-an-cao-cap-boc-da-xdaily-rom-chair__2__96b0e4e5a13b4e83903c31fb3cb48259_master.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Ghế ăn, ghế cafe XDAILY - KONY chair",
-      "price": "15000000",
-      "description": "Sofa da cao cấp nhập khẩu, chất liệu da thật, mềm mại và bền bỉ.",
-      "image": "https://product.hstatic.net/1000400963/product/ghe-an-cafe-xdaily-kony-chair-_1__b3ec53bb598f4bd18475b6fcbfee30f0_master.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Grey Chair",
-      "price": "1000000",
-      "description": "Sofa da cao cấp nhập khẩu, chất liệu da thật, mềm mại và bền bỉ.",
-      "image": "https://png.pngtree.com/png-vector/20241019/ourmid/pngtree-a-simple-grey-modern-chair-isolated-on-transparent-background-png-image_14122820.png"
-    },
-    {
-      "id": 6,
-      "name": "Flow",
-      "price": "200000",
-      "description": "Upholstered in your choice of fabric & colour\nOak, Walnut or Black wood finishes available\nAlso available with arms",
-      "image": "https://www.hsifurniture.co.uk/new-used-office-furniture/Flow-chair-wood-4leg-FW16W.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Ghế ăn gỗ đệm vải có tay N010489",
-      "price": "3360000",
-      "description": "Sofa da cao cấp nhập khẩu, chất liệu da thật, mềm mại và bền bỉ.",
-      "image": "https://product.hstatic.net/200000532817/product/ghe_an_go_dem_vai_co_tay_n010489_2e5d27e9b70847548fb0c178c19f924f_master.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Ghế ăn - Ghế chữ A V9",
-      "price": "90000",
-      "description": "Ghế ăn  XDAILY - Ghế chữ A .\n\nChất liệu :  gỗ cao su hoặc tần bì , cốt polywood , nệm bọc da PU hoặc vải .\n\nMàu sắc : tùy chọn  đặt bọc theo màu liên hệ XDAILY .\n\nKích thước : Chiều cao tiêu chuẩn cho người trưởng thành , H45cm ( xem chi tiết phía dưới ) .\n\nỨng dụng : ghế ăn, ghế cafe, ghế họp, ghế văn phòng, ghế nhà hàng , ghế quầy bar ...\n\nXuất xứ : Việt Nam .\n\nBảo hành : 12 tháng",
-      "image": "https://product.hstatic.net/1000400963/product/ghe-an-cafe-xdaily-chu-a_f742dd934474448187f0059f9ff098b5_master.jpg"
-    }
-  ],
+  {
+    "id": 1,
+    "name": "Rolex Submariner",
+    "price": "250000000",
+    "description": "Đồng hồ Rolex Submariner - Biểu tượng của sự mạnh mẽ và sang trọng. Mặt số đen, viền gốm chống trầy, dây Oyster thép không gỉ.",
+    "image": "https://euluxury.vn/upload_images/20220618/files/rolex_116505.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rolex Datejust",
+    "price": "300000000",
+    "description": "Rolex Datejust - Sự kết hợp hoàn hảo giữa phong cách cổ điển và hiện đại. Mặt số xanh, dây Jubilee, máy tự động.",
+    "image": "https://thumuadonghohieu.com/wp-content/uploads/2020/12/rolex-cosmograph-daytona-116523-mat-trang-demi-vang-size-40mm.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rolex Daytona",
+    "price": "650000000",
+    "description": "Rolex Daytona - Đồng hồ Chronograph thể thao mang đậm dấu ấn tốc độ. Vỏ vàng hồng, mặt số đen.",
+    "image": "https://empireluxury.vn/wp-content/uploads/2022/04/dong-ho-rolex-cosmograph-daytona-40-116503-0004-mat-so-den-day-oyster-thep-vang-vang-4.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Rolex Day-Date",
+    "price": "800000000",
+    "description": "Rolex Day-Date - Đẳng cấp và quý phái với lịch ngày và thứ. Vỏ vàng 18k, mặt số đen, dây President.",
+    "image": "https://donghomanhdung.com.vn/wp-content/uploads/2025/03/Dong-ho-Rolex-Daytona-16523-Demi-vang-18k-1-800x800.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Rolex GMT-Master II",
+    "price": "700000000",
+    "description": "Rolex GMT-Master II - Đồng hồ hai múi giờ với viền gốm đen đỏ, dây Oyster thép không gỉ.",
+    "image": "https://content.rolex.com/dam/new-watches-2021/gmt-master-ii/watches_0002_m126710blro_0001_640x480.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rolex Yacht-Master",
+    "price": "650000000",
+    "description": "Rolex Yacht-Master - Đồng hồ thể thao với thiết kế độc đáo. Mặt số xanh, dây Oysterflex.",
+    "image": "https://www.prestigetime.com/images/watches/116622-0003.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Rolex Explorer",
+    "price": "350000000",
+    "description": "Rolex Explorer - Được thiết kế cho những nhà thám hiểm, mặt số đen tinh tế, dây Oyster.",
+    "image": "https://cdn2.chrono24.com/images/uhren/21523159-x7i7iz0a68r8q7uyesuyji4v-ExtraLarge.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Rolex Milgauss",
+    "price": "450000000",
+    "description": "Rolex Milgauss - Khả năng chống từ trường mạnh mẽ với mặt số xanh độc đáo, dây Oyster.",
+    "image": "https://cdn2.chrono24.com/images/uhren/19954328-5cldkkqgqkbkawj55kko8e1k-ExtraLarge.jpg"
+  }
+]
+,
   "orders": [
     {
       "userId": "10",

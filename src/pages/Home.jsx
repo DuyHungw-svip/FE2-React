@@ -5,9 +5,6 @@ import '../assets/css/tiny-slider.css';
 import '../assets/css/style.css';
 import ProductSection from '../components/ProductSection';
 import WhyChooseUs from '../components/WhyChooseUs';
-import WeHelp from '../components/WeHelp';
-import StartTestimonial from '../components/StartTestimonial';
-import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 import { useEffect } from 'react';
 import { fetchCartById } from '../slices/cartSlice';
@@ -31,9 +28,8 @@ function Home() {
       />
       <ProductSection />
       <WhyChooseUs />
-      <WeHelp />
-      <StartTestimonial />
-      <Blog />
+      
+      
     </div>
   );
 }

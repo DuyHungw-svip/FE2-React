@@ -11,13 +11,6 @@ import ProductDetail from './pages/ProductDetail';
 import ShoppingCart from './pages/ShoppingCart';
 import Profile from './pages/Profile';
 import UpdateAccount from './pages/UpdateAccount';
-import HomeAdmin from './pages/Admin/Home';
-import AddProduct from './pages/admin/AddProduct';
-import ListProduct from './pages/admin/ListProduct';
-import AccountPage from './components/admin/Account';
-import UpdateProduct from './pages/admin/UpdateProduct';
-import UpdateAccountAdmin from './pages/admin/UpdateAccountPage';
-import ProfileAdmin from './pages/admin/ProfileAdmin';
 import Layout from './components/Layout.jsx';
 import useAuthen from './hooks/useAuthen.jsx';
 import Checkout from './pages/Checkout.jsx';
@@ -49,13 +42,7 @@ const routerConfig = [
   },
   { path: '/checkout', element: withLayout(Checkout) },
 
-  { path: '/admin/home', element: <HomeAdmin /> },
-  { path: '/admin/addproduct', element: <AddProduct /> },
-  { path: '/admin/listproduct', element: <ListProduct /> },
-  { path: '/admin/updateproduct/:id', element: <UpdateProduct /> },
-  { path: '/admin/listaccount', element: <AccountPage /> },
-  { path: '/admin/updateaccount/:id', element: <UpdateAccountAdmin /> },
-  { path: '/admin/profile/:id', element: <ProfileAdmin /> },
+ 
   { path: '*', element: <Error /> },
 ];
 
