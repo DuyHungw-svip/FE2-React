@@ -14,7 +14,13 @@ import UpdateAccount from './pages/UpdateAccount';
 import Layout from './components/Layout.jsx';
 import useAuthen from './hooks/useAuthen.jsx';
 import Checkout from './pages/Checkout.jsx';
-
+import HomeAdmin from './pages/admin/Home.jsx';
+import AddProduct from './pages/admin/AddProduct.jsx';
+import ListProduct from './pages/admin/ListProduct.jsx';
+import UpdateProduct from './pages/admin/UpdateProduct.jsx';
+import AccountPage from './pages/admin/Account.jsx';
+import UpdateAccountAdmin from './pages/admin/UpdateAccountPage.jsx';
+import ProfileAdmin from './pages/admin/ProfileAdmin.jsx';
 const withLayout = (Component) => (
   <Layout>
     <Component />
@@ -42,7 +48,20 @@ const routerConfig = [
   },
   { path: '/checkout', element: withLayout(Checkout) },
 
- 
+  // { path: '/admin/home', element: <HomeAdmin /> },
+  // { path: '/admin/addproduct', element: <AddProduct /> },
+  // { path: '/admin/listproduct', element: <ListProduct /> },
+  // { path: '/admin/updateproduct/:id', element: <UpdateProduct /> },
+  // { path: '/admin/listaccount', element: <AccountPage /> },
+  // { path: '/admin/updateaccount/:id', element: <UpdateAccountAdmin /> },
+  // { path: '/admin/profile/:id', element: <ProfileAdmin /> },
+  {path: '/admin/home',element:<HomeAdmin/>},
+  {path: '/admin/addproduct',element:<AddProduct/>},
+  {path: '/admin/listproduct',element:<ListProduct/>},
+  {path: '/admin/updateproduct/:id',element:<UpdateProduct/>},
+  {path: '/admin/listaccount',element:<AccountPage/>},
+  {path: '/admin/updateaccount/:id',element:<UpdateAccountAdmin/>},
+  {path: '/admin/profile/:id',element:<ProfileAdmin/>},
   { path: '*', element: <Error /> },
 ];
 
