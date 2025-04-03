@@ -113,9 +113,9 @@ function UpdateAccountPage() {
             </a>
             <Link to={'/admin/home'} className="brand-logo">
               <div className="header-icon-nav">
-                <i className="fa fa-user-secret" />
+               
               </div>
-              <span>Homely Admin</span>
+              <span>Đồng Hồ Rolex</span>
             </Link>
           </header>
           <nav className="dashboard-nav-list">
@@ -183,7 +183,7 @@ function UpdateAccountPage() {
               <div className="icon-header">
                 <i className="fa fa-address-card-o" />
               </div>
-              <div className="text-header">Profile</div>
+              <div className="text-header">Thông Tin</div>
             </Link>
             <div className="nav-item-divider" />
             <a onClick={handleLogout} className="dashboard-nav-item">
