@@ -1,63 +1,62 @@
 {
   "products": [
-  {
-    "id": 1,
-    "name": "Rolex Submariner",
-    "price": "250000000",
-    "description": "Đồng hồ Rolex Submariner - Biểu tượng của sự mạnh mẽ và sang trọng. Mặt số đen, viền gốm chống trầy, dây Oyster thép không gỉ.",
-    "image": "https://euluxury.vn/upload_images/20220618/files/rolex_116505.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Rolex Datejust",
-    "price": "300000000",
-    "description": "Rolex Datejust - Sự kết hợp hoàn hảo giữa phong cách cổ điển và hiện đại. Mặt số xanh, dây Jubilee, máy tự động.",
-    "image": "https://thumuadonghohieu.com/wp-content/uploads/2020/12/rolex-cosmograph-daytona-116523-mat-trang-demi-vang-size-40mm.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Rolex Daytona",
-    "price": "650000000",
-    "description": "Rolex Daytona - Đồng hồ Chronograph thể thao mang đậm dấu ấn tốc độ. Vỏ vàng hồng, mặt số đen.",
-    "image": "https://empireluxury.vn/wp-content/uploads/2022/04/dong-ho-rolex-cosmograph-daytona-40-116503-0004-mat-so-den-day-oyster-thep-vang-vang-4.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Rolex Day-Date",
-    "price": "800000000",
-    "description": "Rolex Day-Date - Đẳng cấp và quý phái với lịch ngày và thứ. Vỏ vàng 18k, mặt số đen, dây President.",
-    "image": "https://donghomanhdung.com.vn/wp-content/uploads/2025/03/Dong-ho-Rolex-Daytona-16523-Demi-vang-18k-1-800x800.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Rolex GMT-Master II",
-    "price": "700000000",
-    "description": "Rolex GMT-Master II - Đồng hồ hai múi giờ với viền gốm đen đỏ, dây Oyster thép không gỉ.",
-    "image": "https://content.rolex.com/dam/new-watches-2021/gmt-master-ii/watches_0002_m126710blro_0001_640x480.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Rolex Yacht-Master",
-    "price": "650000000",
-    "description": "Rolex Yacht-Master - Đồng hồ thể thao với thiết kế độc đáo. Mặt số xanh, dây Oysterflex.",
-    "image": "https://www.prestigetime.com/images/watches/116622-0003.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Rolex Explorer",
-    "price": "350000000",
-    "description": "Rolex Explorer - Được thiết kế cho những nhà thám hiểm, mặt số đen tinh tế, dây Oyster.",
-    "image": "https://cdn2.chrono24.com/images/uhren/21523159-x7i7iz0a68r8q7uyesuyji4v-ExtraLarge.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Rolex Milgauss",
-    "price": "450000000",
-    "description": "Rolex Milgauss - Khả năng chống từ trường mạnh mẽ với mặt số xanh độc đáo, dây Oyster.",
-    "image": "https://cdn2.chrono24.com/images/uhren/19954328-5cldkkqgqkbkawj55kko8e1k-ExtraLarge.jpg"
-  }
-]
-,
+    {
+      "id": 1,
+      "name": "Rolex Submariner",
+      "price": "250000000",
+      "description": "Đồng hồ Rolex Submariner - Biểu tượng của sự mạnh mẽ và sang trọng. Mặt số đen, viền gốm chống trầy, dây Oyster thép không gỉ.",
+      "image": "https://euluxury.vn/upload_images/20220618/files/rolex_116505.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Rolex Datejust",
+      "price": "300000000",
+      "description": "Rolex Datejust - Sự kết hợp hoàn hảo giữa phong cách cổ điển và hiện đại. Mặt số xanh, dây Jubilee, máy tự động.",
+      "image": "https://thumuadonghohieu.com/wp-content/uploads/2020/12/rolex-cosmograph-daytona-116523-mat-trang-demi-vang-size-40mm.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rolex Daytona",
+      "price": "650000000",
+      "description": "Rolex Daytona - Đồng hồ Chronograph thể thao mang đậm dấu ấn tốc độ. Vỏ vàng hồng, mặt số đen.",
+      "image": "https://empireluxury.vn/wp-content/uploads/2022/04/dong-ho-rolex-cosmograph-daytona-40-116503-0004-mat-so-den-day-oyster-thep-vang-vang-4.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rolex Day-Date",
+      "price": "800000000",
+      "description": "Rolex Day-Date - Đẳng cấp và quý phái với lịch ngày và thứ. Vỏ vàng 18k, mặt số đen, dây President.",
+      "image": "https://donghomanhdung.com.vn/wp-content/uploads/2025/03/Dong-ho-Rolex-Daytona-16523-Demi-vang-18k-1-800x800.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Rolex GMT-Master II",
+      "price": "700000000",
+      "description": "Rolex GMT-Master II - Đồng hồ hai múi giờ với viền gốm đen đỏ, dây Oyster thép không gỉ.",
+      "image": "https://content.rolex.com/dam/new-watches-2021/gmt-master-ii/watches_0002_m126710blro_0001_640x480.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Rolex Yacht-Master",
+      "price": "650000000",
+      "description": "Rolex Yacht-Master - Đồng hồ thể thao với thiết kế độc đáo. Mặt số xanh, dây Oysterflex.",
+      "image": "https://www.prestigetime.com/images/watches/116622-0003.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Rolex Explorer",
+      "price": "350000000",
+      "description": "Rolex Explorer - Được thiết kế cho những nhà thám hiểm, mặt số đen tinh tế, dây Oyster.",
+      "image": "https://cdn2.chrono24.com/images/uhren/21523159-x7i7iz0a68r8q7uyesuyji4v-ExtraLarge.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Rolex Milgauss",
+      "price": "450000000",
+      "description": "Rolex Milgauss - Khả năng chống từ trường mạnh mẽ với mặt số xanh độc đáo, dây Oyster.",
+      "image": "https://cdn2.chrono24.com/images/uhren/19954328-5cldkkqgqkbkawj55kko8e1k-ExtraLarge.jpg"
+    }
+  ],
   "orders": [
     {
       "userId": "10",
@@ -309,6 +308,15 @@
       "phone": "012345679",
       "is_admin": false,
       "id": 11
+    },
+    {
+      "email": "hung@gmail.com",
+      "password": "$2a$10$pRwV7lwF2FwGJmW2z8AZgumQD7PZuJNv4l6SA8BZv0sf7whjfF566",
+      "name": "Duy Hưng",
+      "address": "hai phong",
+      "phone": "09089798",
+      "is_admin": false,
+      "id": 12
     }
   ],
   "cart": [

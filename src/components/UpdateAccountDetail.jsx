@@ -82,7 +82,13 @@ function UpdateAccountDetail() {
                         />
                       </div>
                       <div className="col-md-6">
-                        <button className="btn btn-primary">Cập nhật</button>
+                      <button
+  className="btn btn-primary"
+  style={{ background: '#000', border: '#000', color: '#fff' }}
+>
+  Cập nhật
+</button>
+
                       </div>
                     </div>
                   </div>

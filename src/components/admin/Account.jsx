@@ -105,9 +105,9 @@ function AccountPage() {
             </a>
             <Link to={'/admin/home'} className="brand-logo">
               <div className="header-icon-nav">
-                <i className="fa fa-user-secret" />
+               
               </div>
-              <span>Homely Admin</span>
+              <span>Đồng Hồ Rolex</span>
             </Link>
           </header>
           <nav className="dashboard-nav-list">
@@ -144,15 +144,7 @@ function AccountPage() {
               </div>
             </div>
             <div className="dashboard-nav-dropdown">
-              <a
-                href="#!"
-                className="dashboard-nav-dropdown-toggle dashboard-nav-item"
-              >
-                <div className="icon-header">
-                  <i className="fa fa-users" />
-                </div>
-                <div className="text-header">Quản lý tài khoản</div>
-              </a>
+             
               <div className="dashboard-nav-dropdown-menu">
                 <Link
                   to={'/admin/listaccount'}
@@ -175,7 +167,7 @@ function AccountPage() {
               <div className="icon-header">
                 <i className="fa fa-address-card-o" />
               </div>
-              <div className="text-header">Profile</div>
+              <div className="text-header">Thông Tin</div>
             </Link>
             <div className="nav-item-divider" />
             <a onClick={handleLogout} className="dashboard-nav-item">
