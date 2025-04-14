@@ -21,6 +21,10 @@ import UpdateProduct from './pages/admin/UpdateProduct.jsx';
 import AccountPage from './pages/admin/Account.jsx';
 import UpdateAccountAdmin from './pages/admin/UpdateAccountPage.jsx';
 import ProfileAdmin from './pages/admin/ProfileAdmin.jsx';
+import OrderAdmin from './pages/admin/OrderAdmin.jsx';
+import UpdateOrder from './pages/admin/UpdateOrder.jsx';
+import AdminLayout from './layout/Admin.jsx';
+import { useEffect, useState } from 'react';
 const withLayout = (Component) => (
   <Layout>
     <Component />
@@ -48,20 +52,23 @@ const routerConfig = [
   },
   { path: '/checkout', element: withLayout(Checkout) },
 
-  // { path: '/admin/home', element: <HomeAdmin /> },
-  // { path: '/admin/addproduct', element: <AddProduct /> },
-  // { path: '/admin/listproduct', element: <ListProduct /> },
-  // { path: '/admin/updateproduct/:id', element: <UpdateProduct /> },
-  // { path: '/admin/listaccount', element: <AccountPage /> },
-  // { path: '/admin/updateaccount/:id', element: <UpdateAccountAdmin /> },
-  // { path: '/admin/profile/:id', element: <ProfileAdmin /> },
-  {path: '/admin/home',element:<HomeAdmin/>},
-  {path: '/admin/addproduct',element:<AddProduct/>},
-  {path: '/admin/listproduct',element:<ListProduct/>},
-  {path: '/admin/updateproduct/:id',element:<UpdateProduct/>},
-  {path: '/admin/listaccount',element:<AccountPage/>},
-  {path: '/admin/updateaccount/:id',element:<UpdateAccountAdmin/>},
-  {path: '/admin/profile/:id',element:<ProfileAdmin/>},
+  {
+    path: '/admin',
+    element: <AdminLayout />,
+      children: [
+        { path: '', element: <Navigate to="home" replace /> },
+        { path: 'home', element: <HomeAdmin /> },
+        { path: 'addproduct', element: <AddProduct /> },
+        { path: 'listproduct', element: <ListProduct /> },
+        { path: 'updateproduct/:id', element: <UpdateProduct /> },
+        { path: 'listaccount', element: <AccountPage /> },
+        { path: 'listorder', element: <OrderAdmin /> },
+        { path: 'updateorder/:id', element: <UpdateOrder /> },
+        { path: 'updateaccount/:id', element: <UpdateAccountAdmin /> },
+        { path: 'profile/:id', element: <ProfileAdmin /> },
+      ],
+    },
+
   { path: '*', element: <Error /> },
 ];
 

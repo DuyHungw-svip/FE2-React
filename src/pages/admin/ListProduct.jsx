@@ -1,11 +1,10 @@
-import { Link } from "react-router";
-import Header from "../../components/admin/Header";
+import ListProductDetail from '../../components/admin/ListProduct';
 
 function ListProduct() {
   return (
     <>
       <div>
-        <Header />
+        <ListProductDetail />
       </div>
     </>
   );
