@@ -61,12 +61,13 @@ function ProductDetail({ product }) {
 
       <hr />
       <button
-        onClick={handleAddToCart}
-        className="btn btn-primary shadow-0"
-        disabled={quantity <= 0}
-      >
-        Thêm vào giỏ hàng
-      </button>
+  onClick={handleAddToCart}
+  className="btn btn-primary shadow-0 text-white bg-dark"
+  disabled={quantity <= 0}
+>
+  Thêm vào giỏ hàng
+</button>
+
     </div>
   );
 }
