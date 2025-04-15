@@ -20,9 +20,8 @@ function Home() {
     <div>
       <Banner
         title={'Săn ngay ưu đãi'}
-        title2={'Ghế đẹp giá tốt!'}
         des={
-          'Khám phá bộ sưu tập ghế sang trọng của chúng tôi và biến không gian sống của bạn thành nơi lý tưởng với giá cực tốt!'
+          'Khám phá bộ sưu tập đồng hồ sang trọng của chúng tôi !'
         }
         isShowBtn
       />

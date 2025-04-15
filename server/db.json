@@ -78,5 +78,20 @@
       "id": 13
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "userId": "13",
+      "products": [
+        {
+          "id": 2,
+          "name": "Rolex Datejust",
+          "price": "300000000",
+          "description": "Rolex Datejust - Sự kết hợp hoàn hảo giữa phong cách cổ điển và hiện đại. Mặt số xanh, dây Jubilee, máy tự động.",
+          "image": "https://thumuadonghohieu.com/wp-content/uploads/2020/12/rolex-cosmograph-daytona-116523-mat-trang-demi-vang-size-40mm.jpg",
+          "quantity": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
 }

@@ -34,6 +34,7 @@ function HomePage() {
     'Đã hủy': 0,
     'Trả hàng': 0,
   });
+  const [tongTaiKhoan, setTongTaiKhoan] = useState(0); // Thêm state cho số tài khoản
 
   // Phần mã trong useEffect
   useEffect(() => {
@@ -100,6 +101,12 @@ function HomePage() {
       });
   }, []);
 
+  // Tính tổng số đơn hàng
+  const tongDonHang = Object.values(donHangTheoTrangThai).reduce(
+    (acc, val) => acc + val,
+    0
+  );
+
   // Định nghĩa dữ liệu cho biểu đồ
   const chartData = {
     labels: [
@@ -156,24 +163,25 @@ function HomePage() {
       <div style={containerStyle}>
         <div style={cardStyle}>
           <h4>Tổng Số Đơn Hàng</h4>
-          <p style={{ fontSize: 18 }}>
-            {donHangTheoTrangThai['Giao hàng thành công']} Đơn
-          </p>
+          <p style={{ fontSize: 18 }}>{tongDonHang} Đơn</p>
         </div>
         <div style={cardStyle}>
           <h4>Tổng Tiền Đơn Hàng</h4>
-          <p style={{ fontSize: 18 }}>{tongTien.toLocaleString()}₫</p>
+          <p style={{ fontSize: 18 }}>{tongTien.toLocaleString('vi-VN')}₫</p>
         </div>
         <div style={cardStyle}>
           <h4>Tổng sản phẩm</h4>
           <p style={{ fontSize: 18 }}>{tongSanPham} Sản Phẩm</p>
         </div>
-       
+        <div style={cardStyle}>
+          <h4>Tổng tài khoản</h4>
+          <p style={{ fontSize: 18 }}>{tongTaiKhoan} Tài khoản</p>
+        </div>
       </div>
 
       {/* Hiển thị biểu đồ trạng thái đơn hàng */}
       <div style={{ margin: '20px' }}>
-        <h3 style={{ textAlign: 'center' }}>Thống kê </h3>
+        <h3 style={{ textAlign: 'center' }}>Thống kê</h3>
         <Bar
           data={chartData}
           options={{
