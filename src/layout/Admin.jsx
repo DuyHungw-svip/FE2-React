@@ -127,13 +127,7 @@ function AdminLayout() {
              
               <div className="text-header">Quản lý đơn hàng</div>
             </Link>
-            <Link
-              to={`/admin/profile/${userId}`}
-              className="dashboard-nav-item"
-            >
-              
-              <div className="text-header">Profile</div>
-            </Link>
+            
             <div className="nav-item-divider" />
             <a
               onClick={handleLogout}

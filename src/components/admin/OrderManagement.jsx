@@ -19,18 +19,7 @@ function OrderManagement() {
     }
   };
 
-  const handleDelete = async (orderId) => {
-    if (window.confirm("Bạn có chắc muốn xoá đơn hàng này?")) {
-      try {
-        await axios.delete(`http://localhost:3000/orders/${orderId}`);
-        toast.success("Xoá đơn hàng thành công!");
-        getList();
-      } catch (error) {
-        console.error(error);
-        toast.error("Xoá thất bại!");
-      }
-    }
-  };
+  
 
   useEffect(() => {
     getList();
@@ -119,19 +108,7 @@ function OrderManagement() {
                             <i className="fa fa-wrench" />
                           </div>
                         </Link>
-                        <button
-                          onClick={() => handleDelete(order.id)}
-                          className="button-circle-delete"
-                          style={{
-                            background: '#e74a3b',
-                            border: 'none',
-                            borderRadius: '50%',
-                            width: 35,
-                            height: 35,
-                          }}
-                        >
-                          <i className="fa fa-trash" style={{ color: 'white' }} />
-                        </button>
+                        
                       </div>
                     </td>
                   </tr>

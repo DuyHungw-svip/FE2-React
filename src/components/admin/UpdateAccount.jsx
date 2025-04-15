@@ -181,12 +181,13 @@ function UpdateAccountPage() {
                 </select>
               </div>
               <button
-                style={{ background: '#4e73df', border: '1px solid #4e73df' }}
-                type="submit"
-                className="btn btn-primary mt-3"
-              >
-                Cập nhật tài khoản
-              </button>
+  style={{ background: 'black', border: '1px solid black', color: 'white' }}
+  type="submit"
+  className="btn btn-primary mt-3"
+>
+  Cập nhật tài khoản
+</button>
+
             </form>
           </div>
         </div>

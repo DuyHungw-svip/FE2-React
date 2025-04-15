@@ -113,11 +113,12 @@ function AddProductPage() {
                 )}
               </div>
               <button
-                style={{ background: '#4e73df', border: '1px solid #4e73df' }}
-                className="btn btn-primary btn-icon-split"
-              >
-                <span className="text">Thêm Sản Phẩm</span>
-              </button>
+  style={{ background: 'black', border: '1px solid black', color: 'white' }}
+  className="btn btn-primary btn-icon-split"
+>
+  <span className="text">Thêm Sản Phẩm</span>
+</button>
+
             </form>
           </div>
         </div>
